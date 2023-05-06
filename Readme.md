@@ -16,8 +16,7 @@ npm i postgres_dbm
 const { dbM } = require('postgres_dbm')
 
 const db_pool = new dbM({
-    db: 'DATABASE_URL', // Example: postgresql://..........
-    key: 'YOUR_KEY' // If you need to use this package you need to get an access key from the developer. https://wa.me/94757405652
+    db: 'DATABASE_URL' // Example: postgresql://..........
 })
 ```
 
